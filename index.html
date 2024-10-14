@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taules + CSS Avançat</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        table {
+            text-align: center;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        .title {
+            text-align: center;
+            color: #0000ff;
+        }
+        .subtitle {
+            text-align: center;
+            color: #efcd4e;
+            font-weight: 500;
+        }
+        #descans {
+            font-size: 20px;
+            padding: 15px;
+        }
+        .hores {
+            font-size: 20px;
+            padding: 10px;
+            width: 180px;
+        }
+        .capçaleres {
+            padding: 30px;
+            font-size: 25;
+        }
+        .lmsgi {
+            background-color: #ffc0cb;
+        }
+        .bd {
+            background-color: #fff8dc;
+        }
+        .ped {
+            background-color: #5f9ea0;
+        }
+        .si {
+            background-color: #ffff00;
+        }
+        .an {
+            background-color: #ffd700;
+        }
+        .ipoi {
+            background-color: #dc143c;
+        }
+        .tut {
+            background-color: #6495ed;
+        }
+        .diw {
+            background-color: #ff7f50;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title">Horari</h2>
+    <h3 class="subtitle">Curs 24-25</h3>
+    <table>
+        <tr>
+            <th></th>
+            <th class="capçaleres">Dilluns</th>
+            <th class="capçaleres">Dimarts</th>
+            <th class="capçaleres">Dimecres</th>
+            <th class="capçaleres">Dijous</th>
+            <th class="capçaleres">Divendres</th>
+        </tr>
+        <tr>
+            <td class="hores">8:00 - 9:00</td>
+            <td rowspan="2" class="lmsgi">LMSGI</td>
+            <td rowspan="2" class="bd">BD</td>
+            <td rowspan="2" class="ped">P+ED</td>
+            <td rowspan="2" class="si">SI</td>
+            <td rowspan="2" class="bd">BD</td>
+        </tr>
+        <tr>
+            <td class="hores">9:00 - 10:00</td>
+        </tr>
+        <tr>
+            <td class="hores">10:00 - 11:00</td>
+            <td class="ped">P+ED</td>
+            <td class="tut">TUT</td>
+            <td class="an">AN</td>
+            <td class="ped">P+ED</td>
+            <td class="ped">P+ED</td>
+        </tr>
+        <tr>
+            <td colspan="6" id="descans">Descans</td>
+        </tr>
+        <tr>
+            <td class="hores">11:30 - 12:30</td>
+            <td class="ped">P+ED</td>
+            <td class="diw">DIW</td>
+            <td rowspan="2" class="ipoi">IPOI</td>
+            <td rowspan="2" class="ped">P+ED</td>
+            <td class="ped">P+ED</td>
+        </tr>
+        <tr>
+            <td class="hores">12:30 - 13:30</td>
+            <td class="diw">DIW</td>
+            <td class="ipoi">IPOI</td>
+            <td class="si">SI</td>
+        </tr>
+    </table>
+</body>
+</html>

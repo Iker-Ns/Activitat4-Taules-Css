@@ -1,6 +1,16 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* Estilos tabla */
+.title {
+    text-align: center;
+    color: #0000ff;
+}
+.subtitle {
+    text-align: center;
+    color: #efcd4e;
+    font-weight: 500;
+}
 table {
     text-align: center;
     border-collapse: collapse;
@@ -11,15 +21,6 @@ th {
 }
 th, td {
     border: 1px solid black;
-}
-.title {
-    text-align: center;
-    color: #0000ff;
-}
-.subtitle {
-    text-align: center;
-    color: #efcd4e;
-    font-weight: 500;
 }
 #descans {
     font-size: 20px;
@@ -34,6 +35,7 @@ th, td {
     padding: 30px;
     font-size: 25;
 }
+/* Colores clases */
 .lmsgi {
     background-color: #ffc0cb;
 }
